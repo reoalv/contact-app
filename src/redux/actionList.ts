@@ -1,0 +1,14 @@
+export const CONTACT_LIST = {
+  GET: 'GET_CONTACT_LIST',
+  SET: 'SET_CONTACT_LIST',
+  SET_LOAD: 'SET_CONTACT_LIST_LOADING',
+};
+
+export const CONTACT_EDIT = {
+  GET: 'GET_CONTACT_EDIT',
+  SET: 'SET_CONTACT_EDIT',
+};
+
+export const CONTACT_ADD_NEW = {
+  GET: 'CONTACT_ADD_NEW',
+};
