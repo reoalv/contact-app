@@ -32,7 +32,6 @@ export function ModalView({
   dataUsr,
   isAddNew = false,
 }: ModalViewProps) {
-  console.log(layoutData);
   const {x, y, _width, _height} = layoutData;
   const dispatch = useDispatch();
   const [expanded, setExpanded] = useState(false);

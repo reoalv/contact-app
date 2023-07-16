@@ -67,7 +67,6 @@ const MainPage = () => {
       );
     });
     if (e.length > 0) {
-      console.log('fil data', filterData);
       setFinalData(filterData);
     } else {
       setFinalData(null);
